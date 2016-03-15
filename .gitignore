@@ -4,3 +4,4 @@ node_modules/
 .goutputstream-*
 *.bac
 /.project
+coverage/
