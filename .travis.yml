@@ -1,10 +1,10 @@
-sudo: required
+addons:
+  firefox: latest
 language: node_js
 node_js:
   - '4.4'
   - '5.8'
 before_script:
-  - './.travis-setup.sh'
   - 'sh -e /etc/init.d/xvfb start'
   - 'export DISPLAY=:99.0'
-script: npm test
+script: npm test-ci
