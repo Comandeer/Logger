@@ -10,6 +10,7 @@
     "build": "npm run lint && rollup -c",
     "pretest": "npm run build",
     "test": "karma start",
+    "pretest-ci": "npm run build",
     "test-ci": "karma start --browsers Firefox"
   },
   "keywords": [
