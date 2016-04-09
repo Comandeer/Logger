@@ -6,7 +6,7 @@
   "jsnext:main": "index.js",
   "scripts": {
     "karma": "karma",
-    "lint": "eslint **/**.js",
+    "lint": "eslint **/*.js",
     "build": "npm run lint && rollup -c",
     "pretest": "npm run build",
     "test": "karma start",
